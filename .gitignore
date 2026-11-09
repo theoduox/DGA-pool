@@ -11,7 +11,6 @@ data/dataset-videos/*
 
 # Internal collaboration records and local publication drafts.
 AGENTS.md
-项目记忆/
 docs/GitHub与Zenodo发布文案.md
 docs/公开代码包检查.md
 
@@ -22,4 +21,4 @@ docs/日志.txt
 /release/
 
 # Local research preparation scripts and migration records.
-/本地整理/
+/本地协作/
