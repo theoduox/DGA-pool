@@ -2,6 +2,8 @@
 
 [English](README.md) | **中文**
 
+[![Dataset](https://img.shields.io/badge/Zenodo-Dataset-blue)](https://doi.org/10.5281/zenodo.24054469)
+
 基于曝光优化与自适应图像增强的激光定向能量沉积两阶段熔池成像策略。 
 
 本项目提供论文 **High-fidelity imaging of laser-directed energy deposition via a dual-stage strategy of exposure optimization and adaptive enhancement** 的配套代码与数据。论文发表于 *Engineering Applications of Artificial Intelligence* 176 (2026), 114622。

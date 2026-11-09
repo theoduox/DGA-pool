@@ -2,6 +2,8 @@
 
 **English** | [中文](README.zh.md)
 
+[![Dataset](https://img.shields.io/badge/Zenodo-Dataset-blue)](https://doi.org/10.5281/zenodo.24054469)
+
 A dual-stage melt-pool imaging strategy for laser-directed energy deposition based on exposure optimization and adaptive image enhancement.
 
 This project provides the code and data accompanying **High-fidelity imaging of laser-directed energy deposition via a dual-stage strategy of exposure optimization and adaptive enhancement**, published in *Engineering Applications of Artificial Intelligence* 176 (2026), 114622.
