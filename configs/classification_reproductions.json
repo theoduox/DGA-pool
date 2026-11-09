@@ -1,0 +1,170 @@
+{
+  "description": "Verified historical cases; input paths are relative to the supplied source root. This is not a dataset release selection.",
+  "cases": [
+    {
+      "id": "scheme1",
+      "description": "Scheme 1 historical result",
+      "images": "data/[non]/val",
+      "weights": "convnext_tiny_non_b32e5lr4e-05.pth",
+      "preprocessing": "center_crop",
+      "expected": {
+        "support": [
+          581,
+          588,
+          176
+        ],
+        "confusion_matrix": [
+          [
+            472,
+            16,
+            93
+          ],
+          [
+            107,
+            474,
+            7
+          ],
+          [
+            5,
+            36,
+            135
+          ]
+        ],
+        "accuracy": 0.803717472118959,
+        "macro_f1": 0.7727407228096458
+      }
+    },
+    {
+      "id": "scheme2",
+      "description": "Scheme 2 historical result",
+      "images": "data/[roi]/val",
+      "weights": "convnext_tiny_roi_b32e20lr4e-05.pth",
+      "preprocessing": "center_crop",
+      "expected": {
+        "support": [
+          535,
+          607,
+          176
+        ],
+        "confusion_matrix": [
+          [
+            528,
+            4,
+            3
+          ],
+          [
+            1,
+            596,
+            10
+          ],
+          [
+            4,
+            27,
+            145
+          ]
+        ],
+        "accuracy": 0.9628224582701063,
+        "macro_f1": 0.9409972871985892
+      }
+    },
+    {
+      "id": "scheme3",
+      "description": "Scheme 3 historical result",
+      "images": "data/[low]/val",
+      "weights": "convnext_tiny_low_b32e20lr4e-05.pth",
+      "preprocessing": "center_crop",
+      "expected": {
+        "support": [
+          535,
+          607,
+          176
+        ],
+        "confusion_matrix": [
+          [
+            529,
+            3,
+            3
+          ],
+          [
+            0,
+            594,
+            13
+          ],
+          [
+            5,
+            16,
+            155
+          ]
+        ],
+        "accuracy": 0.9696509863429439,
+        "macro_f1": 0.9522840863609625
+      }
+    },
+    {
+      "id": "scheme4",
+      "description": "Scheme 4 historical result",
+      "images": "data/[roi][low]/val",
+      "weights": "convnext_tiny_roi_Low_b32e20lr000004pre.pth",
+      "preprocessing": "center_crop",
+      "expected": {
+        "support": [
+          535,
+          607,
+          176
+        ],
+        "confusion_matrix": [
+          [
+            529,
+            2,
+            4
+          ],
+          [
+            1,
+            592,
+            14
+          ],
+          [
+            3,
+            23,
+            150
+          ]
+        ],
+        "accuracy": 0.9643399089529591,
+        "macro_f1": 0.9433499962711909
+      }
+    },
+    {
+      "id": "divided_val",
+      "description": "DividedBySubjects independent evaluation",
+      "images": "data/DividedBySubjects/val",
+      "weights": "convnext_tiny_DividedBySubjects_b32e20lr4e-05.pth",
+      "preprocessing": "center_crop",
+      "expected": {
+        "support": [
+          899,
+          1258,
+          270
+        ],
+        "confusion_matrix": [
+          [
+            761,
+            32,
+            106
+          ],
+          [
+            4,
+            1240,
+            14
+          ],
+          [
+            6,
+            2,
+            262
+          ]
+        ],
+        "accuracy": 0.9324268644416975,
+        "macro_f1": 0.8981737007671823
+      }
+    }
+  ]
+}

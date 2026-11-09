@@ -1,0 +1,7 @@
+torch
+torchvision
+timm
+numpy
+opencv-python
+Pillow
+scikit-image==0.26.0

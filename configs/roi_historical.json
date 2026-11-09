@@ -1,0 +1,13 @@
+{
+  "crop_size": 448,
+  "threshold": 64,
+  "max_candidates": 4,
+  "dominant_area_ratio": 20.0,
+  "area_weight": 0.7,
+  "brown_weight": 0.2,
+  "yellow_weight": 0.8,
+  "brown_lower": [10, 100, 20],
+  "brown_upper": [20, 255, 200],
+  "yellow_lower": [20, 100, 100],
+  "yellow_upper": [30, 255, 255]
+}

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: If you use this software in research, please cite the associated paper below.
+type: software
+title: Dual-Stage Melt Pool Imaging
+authors:
+- family-names: Li
+  given-names: Jiazhen
+license: CC-BY-NC-4.0
+preferred-citation:
+  type: article
+  title: High-fidelity imaging of laser-directed energy deposition via a dual-stage
+    strategy of exposure optimization and adaptive enhancement
+  authors:
+  - family-names: Li
+    given-names: Jiazhen
+  - family-names: Jiang
+    given-names: Xingyu
+  - family-names: Liu
+    given-names: Ao
+  - family-names: Liu
+    given-names: Shun
+  - family-names: Tan
+    given-names: Qingze
+  - family-names: Liu
+    given-names: Weijun
+  - family-names: Tian
+    given-names: Zhiqiang
+  journal: Engineering Applications of Artificial Intelligence
+  volume: '176'
+  start: '114622'
+  year: 2026
+  doi: 10.1016/j.engappai.2026.114622

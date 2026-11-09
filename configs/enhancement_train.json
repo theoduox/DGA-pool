@@ -1,0 +1,14 @@
+{
+  "image_size": 224,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "grad_clip_norm": 0.1,
+  "num_epochs": 200,
+  "train_batch_size": 8,
+  "num_workers": 4,
+  "display_iter": 10,
+  "snapshot_iter": 0,
+  "curve_steps": 8,
+  "seed": 42,
+  "cpu": false
+}
