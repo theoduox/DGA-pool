@@ -20,3 +20,6 @@ docs/日志.txt
 
 # Local publication review copies; upload each selected subtree separately.
 /release/
+
+# Local research preparation scripts and migration records.
+/本地整理/
