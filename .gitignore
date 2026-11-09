@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+
+# Full dataset media are distributed separately from the code repository.
+data/dataset-images/*
+!data/dataset-images/.gitkeep
+data/dataset-videos/*
+!data/dataset-videos/.gitkeep
+
+# Internal collaboration records and local publication drafts.
+AGENTS.md
+项目记忆/
+docs/GitHub与Zenodo发布文案.md
+docs/公开代码包检查.md
+
+# Local new-computer diagnostic log.
+docs/日志.txt
+
+# Local publication review copies; upload each selected subtree separately.
+/release/
